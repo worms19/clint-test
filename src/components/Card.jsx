@@ -7,7 +7,7 @@ function Card() {
         <img
           className="image"
           alt=""
-          src="https://a0.muscache.com/im/pictures/39338372-3b65-41da-940b-b81ce003f749.jpg?im_w=720"
+          src="https://www.constructeur-maison-laure.fr/sites/default/files/2019-06/maison-toiture-plate-2-maison-laure.jpg"
         ></img>
         <div className="buttonContainer">
           <button className="buttonTextLeft darkButton">
