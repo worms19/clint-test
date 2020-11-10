@@ -1,0 +1,161 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 315px;
+  width: 360px;
+  margin: 0px 5px;
+  border: 1px solid;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.cardBottom {
+  border-radius: 0px 0px 10px 10px;
+  height: 100%;
+}
+
+.cardSpan {
+  font-size: 0.6em;
+}
+
+.cardContainer {
+  position: relative;
+  height: 215px;
+}
+
+.image {
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  height: 215px;
+}
+
+.spanContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  bottom: 10px;
+  left: 10px;
+}
+
+.buttonContainer {
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  top: 90px;
+}
+
+.buttonTextLeft {
+  margin-right: auto;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.buttonTextRight {
+  margin-right: 10px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.imageText {
+  background: #0e47c1;
+  border-radius: 5px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.imageText:first-child {
+  margin-right: 5px;
+}
+
+.darkButton {
+  background: #001e3f66;
+  border-radius: 100%;
+  border: none;
+  color: white;
+  height: 36px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightButton {
+  background: #e6ecf8;
+  border-radius: 100%;
+  margin-left: auto;
+  border: none;
+
+  cursor: pointer;
+  width: 42px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomInformation {
+  display: flex;
+  flex-direction: row;
+  padding: 21px 30px 16px 26px;
+  height: 100%;
+}
+
+.leftArea {
+  width: 70%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightArea {
+  margin: auto 0 auto auto;
+}
+
+.rightAreaBorder {
+  border: 1px solid;
+}
+
+.priceContainer {
+  display: flex;
+}
+
+.price {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin: 0;
+}
+
+.greyPrice {
+  margin-left: 4px;
+  color: gray;
+}
+
+.cardSpan {
+  color: #7c8c9f;
+  font-size: 15px;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
